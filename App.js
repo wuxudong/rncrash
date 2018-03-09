@@ -7,8 +7,7 @@ export default class App extends React.Component {
     super();
 
     this.state = {
-      data: Array.from(new Array(520), (val, index) => index),
-     
+      data: Array.from(new Array(500), (val, index) => index),     
     }
   }
 
