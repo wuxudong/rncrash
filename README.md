@@ -4,13 +4,15 @@ when using react-native 0.54.0, ReadableArray.getType(index) will crash when Rea
 update array size in App.js to reproduce the crash.
 
 
-#how to run example
+# how to run example
+
 
 yarn install
 
 react-native run-android
 
-#how to reproduce crash
+# how to reproduce crash
+
 
  It works well if array size in App.js is 500.
 
