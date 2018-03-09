@@ -15,7 +15,8 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Type of first element of data</Text><Types data={this.state.data} style={{height:30, width:100}}/>
+        <Text>Type of first element of data</Text>
+        <Types data={this.state.data} style={{height:30, width:100}}/>
         
        
       </View>
